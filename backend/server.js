@@ -12,7 +12,8 @@ import {
     app,
     server
 } from "./socket/socket.js";
-import path from "path";
+import * as path
+    from "node:path";
 
 const PORT = process.env.PORT || 5000;
 
